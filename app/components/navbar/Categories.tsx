@@ -23,14 +23,9 @@ import Container from '../Container';
 
 export const categories = [
   {
-    label: 'Beach',
-    icon: TbBeach,
-    description: 'This property is close to the beach!',
-  },
-  {
-    label: 'Windmills',
-    icon: GiWindmill,
-    description: 'This property is has windmills!',
+    label: 'Skiing',
+    icon: FaSkiing,
+    description: 'This property has skiing activies!'
   },
   {
     label: 'Modern',
@@ -38,19 +33,14 @@ export const categories = [
     description: 'This property is modern!'
   },
   {
-    label: 'Countryside',
-    icon: TbMountain,
-    description: 'This property is in the countryside!'
-  },
-  {
     label: 'Pools',
     icon: TbPool,
     description: 'This is property has a beautiful pool!'
   },
   {
-    label: 'Islands',
-    icon: GiIsland,
-    description: 'This property is on an island!'
+    label: 'Countryside',
+    icon: TbMountain,
+    description: 'This property is in the countryside!'
   },
   {
     label: 'Lake',
@@ -58,9 +48,19 @@ export const categories = [
     description: 'This property is near a lake!'
   },
   {
-    label: 'Skiing',
-    icon: FaSkiing,
-    description: 'This property has skiing activies!'
+    label: 'Camping',
+    icon: GiForestCamp,
+    description: 'This property offers camping activities!'
+  },
+  {
+    label: 'Beach',
+    icon: TbBeach,
+    description: 'This property is close to the beach!',
+  },
+  {
+    label: 'Islands',
+    icon: GiIsland,
+    description: 'This property is on an island!'
   },
   {
     label: 'Castles',
@@ -73,9 +73,14 @@ export const categories = [
     description: 'This property is in a spooky cave!'
   },
   {
-    label: 'Camping',
-    icon: GiForestCamp,
-    description: 'This property offers camping activities!'
+    label: 'Windmills',
+    icon: GiWindmill,
+    description: 'This property is has windmills!',
+  },
+  {
+    label: 'Lux',
+    icon: IoDiamond,
+    description: 'This property is brand new and luxurious!'
   },
   {
     label: 'Arctic',
@@ -83,19 +88,14 @@ export const categories = [
     description: 'This property is in arctic environment!'
   },
   {
-    label: 'Desert',
-    icon: GiCactus,
-    description: 'This property is in the desert!'
-  },
-  {
     label: 'Barns',
     icon: GiBarn,
     description: 'This property is in a barn!'
   },
   {
-    label: 'Lux',
-    icon: IoDiamond,
-    description: 'This property is brand new and luxurious!'
+    label: 'Desert',
+    icon: GiCactus,
+    description: 'This property is in the desert!'
   }
 ]
 
