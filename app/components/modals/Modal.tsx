@@ -65,7 +65,7 @@ const Modal: React.FC<ModalProps> = ({
 
   if (!isOpen) {
     return null;
-  }
+  } 
 
   return (
     <>

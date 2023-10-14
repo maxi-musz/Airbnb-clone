@@ -11,7 +11,7 @@ import useRentModal from "@/app/hooks/useRentModal";
 import { SafeUser } from "@/app/types";
 
 import MenuItem from "./MenuItem";
-import Avatar from "../Avatar";
+import Avatar from "../Avatar"; 
 
 interface UserMenuProps {
   currentUser?: SafeUser | null
@@ -84,6 +84,8 @@ const UserMenu: React.FC<UserMenuProps> = ({
           </div>
         </div>
       </div>
+
+
       {isOpen && (
         <div 
           className="
@@ -99,6 +101,8 @@ const UserMenu: React.FC<UserMenuProps> = ({
             text-sm
           "
         >
+
+
           <div className="flex flex-col cursor-pointer">
             {currentUser ? (
               <>
@@ -120,7 +124,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
                 />
                 <MenuItem 
                   label="Airbnb your home" 
-                  onClick={rentModal.onOpen}
+                  onClick={rentModal.onOpen} 
                 />
                 <hr />
                 <MenuItem 
