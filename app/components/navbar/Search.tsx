@@ -112,7 +112,7 @@ const Search = () => {
           <div 
             className="
               p-2 
-              bg-rose-500 
+              bg-blue-600 
               rounded-full 
               text-white
             "
@@ -121,7 +121,7 @@ const Search = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   );
 }
  
